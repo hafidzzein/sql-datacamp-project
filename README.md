@@ -1,5 +1,7 @@
 # Student Mental Health Analysis (SQL / PostgreSQL)
 
+![Illustration of silhouetted heads](mentalhealth.jpg)
+
 An SQL data analysis project from DataCamp. It looks at whether studying abroad affects students' mental health, using survey data from a Japanese international university.
 
 ## Background
@@ -10,6 +12,14 @@ In 2018 a Japanese international university surveyed its students and published 
 - **social connectedness** (belonging to a social group) and **acculturative stress** (stress from adjusting to a new culture) predict depression.
 
 This project uses PostgreSQL on the `students` table to check whether the same conclusions hold for international students, and whether **length of stay** plays a role.
+
+## Repository Contents
+
+| File                                 | Description                                                  |
+| ------------------------------------ | ------------------------------------------------------------ |
+| [`notebook.ipynb`](notebook.ipynb)   | DataCamp Workspace notebook with all SQL queries and results |
+| [`students.csv`](students.csv)       | Raw survey data (the `students` table)                       |
+| [`mentalhealth.jpg`](mentalhealth.jpg) | Header image                                               |
 
 ## Dataset
 
